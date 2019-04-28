@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+
+ul{list-style-type:none;}
+
+a{text-decoration:none;}
+
+
+.box{width:100%;
+     height:1080px;
+     background:url(img/banner.jpg);
+	}   
+
+.box .fl{
+        width:1300px;
+        height:88px;
+        background-color:rgba(27, 27, 27, 0.4);
+        
+	}
+
+.box .fl .logo{float:left;}
+
+.box .fl .logo a{color:white;
+        font-weight:800;
+		font-size:40px;
+		line-height:88px;
+		margin-left:200px;
+}
+
+.box .fl .nav ul li a{
+	color:#fff;
+	float:left;
+	width:124px;
+	height:40px;
+	padding:5px;
+	cursor:pointer;
+	text-align:center;
+	-webkit-transition: color 500ms;
+    -o-transition: color 500ms;
+    transition: color 500ms;
+}
+
+.box .fl .nav ul li a:hover{transform: translateY(-10%);
+	               transition: 500ms;
+	        color:rgb(255, 167, 52);
+			 }
+
+.box .fl .nav ul{width:900px;height:50px;margin-left:400px;padding-top:30px;}
+
+.yuan{width:800px;height:500px;
+	   background-color:rgba(3, 3, 3, 0.192);
+	   margin-left:100px;
+	   margin-top:180px;
+	   
+	      
+}
+
+.yuan .shou{line-height:1.7em;color:white;
+	font-size:18px;padding:20px  80px  20px  80px;
+	text-shadow:0 -1px 0 #fff,0 3px 1px rgba(0,0,0,0.5);
+	padding-top:30px;
+}
+
+.yuan h1{color:white;margin-left:330px;font-size:75px;margin-top:5px;
+	text-shadow:0 -1px 0 #fff,0 3px 1px rgba(0,0,0,0.5);
+	
+}
+
+embed{float:left;padding-left:100px;}
